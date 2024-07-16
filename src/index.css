@@ -1,0 +1,26 @@
+body{
+  background-image: url(assets/ocean.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.DigitalClock{
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+  
+}
+
+.DigitalClock .clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgb(29, 29, 29);
+
+}
